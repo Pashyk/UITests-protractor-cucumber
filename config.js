@@ -11,7 +11,7 @@ exports.config = {
     capabilities: {
         browserName: 'chrome',
         chromeOptions: {
-            args: ['no-sandbox', '--headless],
+            args: ['no-sandbox', '--headless'],
         },
     },
     ignoreSynchronization: true,
