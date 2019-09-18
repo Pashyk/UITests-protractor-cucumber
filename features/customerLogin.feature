@@ -1,6 +1,5 @@
 Feature: Customer login feature
 
-
   Scenario: Customer checks account status
     Given I open web-page as "customer"
     And I logged in as "Harry Potter"

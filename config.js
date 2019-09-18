@@ -4,7 +4,7 @@ exports.config = {
     specs: ['./features/*.feature'],
     cucumberOpts: {
         require: ['./specs/*.js'],
-      //  format: ['./features/support/Reporter.js'],
+    //  format: ['./features/support/Reporter.js'],
     },
     seleniumAddress: 'http://localhost:4444/wd/hub',
     baseUrl: 'http://www.way2automation.com/angularjs-protractor/banking/#',
