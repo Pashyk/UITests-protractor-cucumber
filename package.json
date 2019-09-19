@@ -12,7 +12,7 @@
   "scripts": {
     "pree2e": "webdriver-manager update --standalone false --gecko false",
     "windows": "webdriver-manager clean && webdriver-manager update && webdriver-manager start",
-    "linux": "/node_modules/.bin/webdriver-manage update $$ /node_modules/.bin/webdriver-manage start",
+    "linux": "/node_modules/.bin/webdriver-manager update $$ /node_modules/.bin/webdriver-manager start",
     "wd-start": "webdriver-manager update && webdriver-manager start",
     "test": "protractor config.js",
     "start": "npm run wd-start && npm run test"
