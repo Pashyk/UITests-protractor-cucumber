@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "config.js",
   "dependencies": {
+    "cucumberjs-allure2-reporter": "^1.3.0",
+    "allure-commandline": "^2.9.0",
+    "allure-js-commons": "^1.3.2",
     "chai": "^4.2.0",
     "cucumber": "4.2.1",
     "eslint-plugin-cucumber": "^1.2.0",
