@@ -10,6 +10,9 @@
     "protractor-cucumber-framework": "^6.1.3"
   },
   "scripts": {
+    "generate-report": "./node_modules/allure-commandline/bin/allure generate ./target/allure-results/ -o ./target/allure-report/ --clean",
+    "open-report": "./node_modules/allure-commandline/bin/allure open ./target/allure-report/",
+    "report": "npm run generate-report && npm run open-report",
     "wd-start": "./node_modules/.bin/webdriver-manager update && ./node_modules/.bin/webdriver-manager start",
     "test": "./node_modules/.bin/protractor config.js",
     "start": "npm run wd-start && npm run test"
