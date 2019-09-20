@@ -3,8 +3,8 @@ exports.config = {
     frameworkPath: require.resolve('protractor-cucumber-framework'),
     specs: ['./features/*.feature'],
     cucumberOpts: {
-        require: ['./specs/*.js'],
-    //  format: ['./features/support/Reporter.js'],
+      require: ['./specs/*.js'],
+      format: ['./features/support/Reporter.js'],
     },
     seleniumAddress: 'http://localhost:4444/wd/hub',
     baseUrl: 'http://www.way2automation.com/angularjs-protractor/banking/#',
